@@ -6,7 +6,6 @@ import runner.BaseTest;
 import java.util.List;
 
 public class _ConfigureGlobalSecurityTest extends BaseTest {
-
     @Test
     public void test9ChaptersDisplayedOnGlobalSecurityPage() {
         int actualSizeOfChapters = new HomePage(getDriver())
